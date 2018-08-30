@@ -5,7 +5,7 @@ public class ClassB implements InterfaceA {
     public int method (int n){
         int sum = 1;
         for(int i =1; i<=n;i++){
-            sum*=n;
+            sum*=i;
         }
         return sum;
     }
